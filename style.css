@@ -25,3 +25,14 @@ button {
   font-size: 1rem;
   cursor: pointer;
 }
+
+.blackboard-photo {
+  display: block;      /* makes it act like a block element below the h1 */
+  max-width: 250px;    /* controls size */
+  width: 100%;         /* scales down on smaller screens */
+  height: auto;        /* preserves aspect ratio */
+  margin: 20px auto;   /* space above/below and center horizontally */
+  border-radius: 8px;  /* optional: rounded corners for a friendly look */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* subtle shadow for depth */
+}
+

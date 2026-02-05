@@ -36,3 +36,16 @@ button {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* subtle shadow for depth */
 }
 
+label {
+  display: block;       /* makes each label start on a new line */
+  margin-bottom: 15px;  /* adds space between labels */
+}
+
+input, textarea {
+  width: 100%;          /* makes them stretch the width of the container */
+  padding: 10px;
+  font-size: 1rem;
+  box-sizing: border-box; /* ensures padding doesn’t break layout */
+}
+
+

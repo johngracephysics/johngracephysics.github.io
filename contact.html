@@ -15,20 +15,34 @@
 </header>
 
 <main>
-  <h1>Contact / Book a session</h1>
+  <h1>Book a session</h1>
+
+  <form action="https://formspree.io/f/xaqdwpdr" method="POST">
+    <label>
+      Name
+      <input type="text" name="name" required>
+    </label>
+
+    <label>
+      Email
+      <input type="email" name="email" required>
+    </label>
+
+    <label>
+      Course / Subject
+      <input type="text" name="course">
+    </label>
+
+    <label>
+      Message
+      <textarea name="message" rows="5" required></textarea>
+    </label>
+
+    <button type="submit">Send request</button>
+  </form>
 
   <p>
-    Email me at:
-    <a href="mailto:yourname@email.com">yourname@email.com</a>
-  </p>
-
-  <p>
-    Include:
-    <ul>
-      <li>Your course</li>
-      <li>Your exam date</li>
-      <li>What you’re struggling with</li>
-    </ul>
+    I’ll reply within 24 hours.
   </p>
 </main>
 

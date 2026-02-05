@@ -37,15 +37,19 @@ button {
 }
 
 label {
-  display: block;       /* makes each label start on a new line */
-  margin-bottom: 15px;  /* adds space between labels */
+  display: block;          /* label takes full width */
+  margin-bottom: 10px;     /* space below the label/input group */
 }
 
-input, textarea {
-  width: 100%;          /* makes them stretch the width of the container */
+label input,
+label textarea {
+  display: block;           /* ensures inputs start on a new line */
+  width: 100%;              /* stretch across container */
   padding: 10px;
+  margin-top: 5px;          /* small space between label and input */
   font-size: 1rem;
-  box-sizing: border-box; /* ensures padding doesn’t break layout */
+  box-sizing: border-box;   /* ensures padding doesn’t break width */
 }
+
 
 

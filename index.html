@@ -87,7 +87,7 @@
   The physical process of MPLC therefore finds a computational analogue in the neural network. Each phase mask applies a phase to the
     field at each point: \(E_i \rightarrow e^{\mathcal{i}\Theta_i}E_i\), in the form of an activation function. Then, the light field 
     travels a distance \(d)\) and the value of the field at each point changes according to the field's momentum: \(E_j' = P^{(d)}_j(E_1, E_2, ...)\), 
-    just like a connected layer, where P^{(d)}_j is the function that calculates the field at position j, given that the field had
+    just like a connected layer, where \(P^{(d)}_j\) is the function that calculates the field at position j, given that the field had
     the values (E_1, E_2, ...) a distance \(d\) away. This correspondence allowed us to implement the MPLC directly as a neural 
     network, and therefore take advantage of the multitude of existing training protocols in the field of machine learning. I turned the code
     which does this into an installible python package, which one can use to desing MPLC's to implement complex, high-dimensional 

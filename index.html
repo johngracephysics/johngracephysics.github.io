@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>johngracephysics</title>
   <link rel="stylesheet" href="style.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js"></script>
 </head>
 <body>
 
@@ -20,9 +21,10 @@
   <h1>John Grace Physics</h1>
   <img src="images/headshot.jpg" alt="Headshot" class="photo">
   <p>
-    So you've found my website, welcome! I'm an aspiring physicist, a Master's student at ETH Zurich, with particular interest 
-    in quantum information theory and measurement. I study how quantum mechanics mediates not just what we know about physical systems,
-    but also what we CAN know. In this blog, I document some of the things I've worked on.
+    You've found my website, welcome! I'm an aspiring physicist with particular interest in quantum information theory and measurement,
+    currently doing my Master's in Physics at ETH Zurich. I study how quantum mechanics mediates not just what we know about physical 
+    systems, but also what we CAN know. In this blog, I document some of the things I've worked on, and try to pick out some of what 
+    I've learned along the way.
   </p>
 
   <h2>Projects</h2>
@@ -35,9 +37,16 @@
   View Paper ↗
   </a>
   <p>
-    Quantum systems, in general, undergo unitary evolutions. 
-  
-    
+    Unitary evolution in quantum mechanics is a mathematical condition for the time evolution of a system, which 
+    encodes an obvious fact about the world: a physical system needs to be found in SOME state. This condition ensures that if we 
+    measure the system at any time, the probabilties of each possible outcome add up to one. However, it turns out that the effects 
+    of this condition are very different when our system has more than one degree of freedom. First, consider a single degree of 
+    freedom, say the polarization of a photon, which can be in one of two states: horizontal polarization \(\ket{H}\) and vertical
+    polarization \(\ket{V}\). Suppose, at a time \(t=0\), the photon's state, which we label \(\ket{\psi}\) is in the horizontally
+    polarized state: \(ket{\psi} = \ket{H}\). Then we allow the photon to evolve in time, potentially changing it's state, so that at
+    a time \(t\), the probability that the photon is in the state \(\ket{H}\) is given by a function \(P_H(t)\). Then, the principle
+    of unitary evolution tells us that the probability that the photon is in the state \(\ket{V}\) is \(1 - P_H(t)\). It encodes the 
+    simple fact that if the photon is not horizontally polarized, then it must be vertically polarized. Simple enough.    
   </p>
 
   <h3>

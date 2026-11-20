@@ -33,37 +33,34 @@
     Optical metasurfaces for the simulation of open-system quantum dynamics
   </h3>
   <img src="images/opensystems.jpg" alt="Headshot" class="photo",  style="width: 50%; height: auto;">
+  <p>
+    Conservation of probability in quantum mechanics enforces that systems undergo unitary dynamics, constraining the types of
+    quantum channels we can simulate on qubits. However, by coupling the qubit to an accessible auxillary degree of freedom, we can
+    overcome this challenge and design arbitrary quantum gates on the qubit space. In our paper, we create arbitrary quantum channels 
+    on photonic qubits using optical metasurfaces to precisely implement the spin-orbit coupling.
+  </p>
   <a href="https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.7.023236" target="_blank" rel="noopener noreferrer">
   View Paper ↗
   </a>
+
   
-  <!--
-  <p>
-    Unitary evolution in quantum mechanics is a mathematical condition for the time evolution of a system, which 
-    encodes an obvious fact about the world: a physical system needs to be found in SOME state. This condition ensures that if we 
-    measure the system at any time, the probabilties of each possible outcome add up to one. However, it turns out that the effects 
-    of this condition are very different when our system has more than one degree of freedom. First, consider a single degree of 
-    freedom, say the polarization of a photon, which can be in one of two states: horizontal polarization \(\ket{H}\) and vertical
-    polarization \(\ket{V}\). Suppose, at a time \(t=0\), the photon's state, which we label \(\ket{\psi}\) is in the horizontally
-    polarized state: \(ket{\psi} = \ket{H}\). Then we allow the photon to evolve in time, potentially changing it's state, so that at
-    a time \(t\), the probability that the photon is in the state \(\ket{H}\) is given by a function \(P_H(t)\). Then, the principle
-    of unitary evolution tells us that the probability that the photon is in the state \(\ket{V}\) is \(1 - P_H(t)\). It encodes the 
-    simple fact that if the photon is not horizontally polarized, then it must be vertically polarized. Simple enough.    
-  </p>
-  -->
+
 
   <h3>
     Optical metasurfaces for quantum state tomography
   </h3>
+  
   <img src="images/sst.jpg" alt="Headshot" class="photo", style="width: 50%; height: auto;">
+  <p>
+    Recent innovations in technology allow for all-purpose devices which can finely control the spin-orbit structure of light. 
+    In this paper, we demonstrate that the transformations which these devices allow for rapid polarization tomography of N-qubits,
+    by constructing positive operator value measures (POVM's) from the spectra of these transformations, which correspond to 
+    closed loops in SU(2). 
+  </p>
   <a href="https://arxiv.org/abs/2607.03052" target="_blank" rel="noopener noreferrer">
   View Paper ↗
   </a>
-  <!--
-  <p>
-    Section in progress...
-  </p>
-  -->
+  
   
   <h3>
     Applying machine-learning techniques to the design of phase masks for multi-plane light conversion
@@ -77,6 +74,7 @@
     methods exist, we've come to a new paradigm for their design through the observation that MPLC as a physical system carries a strong
     resemblence to a neural network. 
 
+  <!--
   A 'layer' in neural network is a function: it takes a list of numbers as input and gives a list of numbers back as output. The 
     neural network is the sequence of layers, taking the output of each layer as the input to the next, and generally alternates
     between two types of layers. The first, is 'activation layer': each number in the input list \(x_i\) is taken to a new
@@ -92,7 +90,7 @@
     network, and therefore take advantage of the multitude of existing training protocols in the field of machine learning. I turned the code
     which does this into an installible python package, which one can use to desing MPLC's to implement complex, high-dimensional 
     quantum operations in the light's momentum degree of freedom. You can access it below:
-    
+  -->
   </p>
 
   <a href="https://github.com/johngracephysics/torchmplc" target="_blank" rel="noopener noreferrer">
@@ -100,14 +98,9 @@
   </a>
 
   <!--
-  <p>
-    Section in progress...
-  </p>
-  -->
   <h3>
     Quantum non-demolition in the strong to weak measurement regimes
   </h3>
-  <!--
   <p>
     Section in progress...
   </p>
@@ -116,11 +109,13 @@
   <h3>
     Exploiting symmetry in Mach-Zender interferometers for robust precision enhancement
   </h3>
-  <!--
+
   <p>
-    Section in progress...
-  </p>
-  -->
+    My undergraduate Honours thesis was written on how an anti-symmetric Mach-Zehnder interferometer, used for quantum phase 
+    estimation, can be incredibly robust photon losses, maintaining near-optimal classical Fisher information independently of
+    the phase value.
+  <p>
+  
   <section class="pdf-section">
   
     <div class="pdf-buttons">
